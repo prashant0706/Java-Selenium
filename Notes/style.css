@@ -1,0 +1,59 @@
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      color: darkred;
+      text-decoration: underline;
+    }
+
+    .architecture {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .block {
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      width: 180px;
+    }
+
+    .client {
+      background-color: #4CAF50;
+    }
+
+    .protocol {
+      background-color: #7E9EF0;
+    }
+
+    .driver {
+      background-color: #f4b860;
+      color: black;
+    }
+
+    .browser {
+      background-color: #e69a45;
+      color: black;
+    }
+
+    .arrow {
+      font-size: 24px;
+    }
+
+    .http-arrows {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .http-arrows span {
+      font-size: 16px;
+      font-style: italic;
+    }
